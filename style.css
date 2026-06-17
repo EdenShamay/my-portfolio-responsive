@@ -24,6 +24,7 @@ a , h1 , h2, h3 ,h4, p , .about-me-content  {
     margin-bottom: 10px;
 }
 
+
 .nav-logo{
     font-family: "Montserrat" , sans-serif;
 }
@@ -221,20 +222,10 @@ footer{
 
 footer .copy-right{
     color: white;
+    font-size: small;
    
 }
 
-footer i{
-    padding: 10px 5px;
-    color: white;
-    font-size: large;
-}
-
-footer i:hover {
-    color: rgb(233, 228, 228);
-    transform: scale(1.2);
-    cursor: pointer;
-}
 
 @media (max-width:520px) {
     .nav-links .icon-container span{
